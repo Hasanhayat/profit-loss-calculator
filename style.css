@@ -1,1 +1,105 @@
-   
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=);
+  }
+  input,
+  select,
+  button {
+    padding: 7px 13px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    outline: none;
+    transition: all 0.3s linear;
+  }
+  input:focus,
+  select:focus {
+    border: 2px solid black;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: 1px double black;
+    color: white;
+  }
+  button:hover {
+    background-color: antiquewhite;
+    color: black;
+  }
+  h3 {
+    font-size: 5vw;
+    color: rgba(197, 228, 223, 0.89);
+  }
+  .containor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 23px;
+    border-radius: 5px;
+    background-color: rgba(74, 73, 94, 0.719);
+    flex-direction: column;
+  }
+  .profit {
+    height: 100px;
+    width: 80vh;
+    background-color: rgba(120, 228, 120, 0.719);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-size: 6vh;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 4.5vh;
+    margin: 20px;
+  }
+  .loss {
+    height: 100px;
+    width: 80vh;
+    background-color: rgba(228, 120, 120, 0.719);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .total {
+    background-color: rgba(31, 28, 28, 0.753);
+    height: 100px;
+    width: 90vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
