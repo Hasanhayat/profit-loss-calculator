@@ -1,6 +1,6 @@
 
   let expense = 0;
-
+ 
   function calculate() {
     let item = document.querySelector(".item");
     let priceInput = document.querySelector(".price");
